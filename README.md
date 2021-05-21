@@ -4,7 +4,7 @@ Four card feature section - Frontendmentor.io
 
 ## Demo link:
 
-Access my site at [google.com](https://google.com)
+https://silly-bartik-74813a.netlify.app/
 
 ## Table of Content:
 
