@@ -21,7 +21,9 @@ Challenge from fronendmentor.io
 
 ## Screenshots
 
-`![]()`
+![](https://github.com/lc-dev90/Four-card-feature-section/blob/master/screenshots/Captura%20de%20tela_2021-05-21_05-53-48.png?raw=true)
+![](https://github.com/lc-dev90/Four-card-feature-section/blob/master/screenshots/Captura%20de%20tela_2021-05-21_05-54-29.png?raw=true)
+![](https://github.com/lc-dev90/Four-card-feature-section/blob/master/screenshots/Captura%20de%20tela_2021-05-21_05-54-53.png?raw=true)
 
 ## Technologies
 
