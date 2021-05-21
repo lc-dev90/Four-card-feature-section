@@ -20,6 +20,7 @@
   /* ### Neutral */
   --clr-very-dark-blue: hsl(234, 12%, 34%);
   --clr-grayish-blue: hsl(229, 6%, 66%);
+  --clr-grayish-blue-: hsla(229, 6%, 66%, 0.3);
   --clr-very-light-gray: hsl(0, 0%, 98%);
 
   --fw-light: 200;
@@ -42,12 +43,12 @@ body {
 }
 
 main {
-  padding: 40px 20px;
   max-width: 375px;
+  margin: 0 auto;
 }
 
 header {
-  margin: 40px 0;
+  margin: 60px 25px;
 }
 
 .title {
@@ -59,6 +60,7 @@ header {
 }
 
 .title span {
+  margin-top: 2px;
   font-weight: var(--fw-bold);
   display: block;
 }
@@ -66,4 +68,56 @@ header {
 .description {
   color: var(--clr-grayish-blue);
   text-align: center;
+}
+
+.cards {
+  margin: 0 25px;
+  display: grid;
+  gap: 25px;
+}
+.card {
+  height: 220px;
+  width: 320px;
+  padding: 25px 33px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 10px 20px var(--clr-grayish-blue-),
+    0 6px 6px var(--clr-grayish-blue-);
+}
+
+.card:nth-of-type(1) {
+  border-top: 4px solid var(--clr-cyan);
+}
+.card:nth-of-type(2) {
+  border-top: 4px solid var(--clr-red);
+}
+.card:nth-of-type(3) {
+  border-top: 4px solid var(--clr-orange);
+}
+.card:nth-of-type(4) {
+  border-top: 4px solid var(--clr-blue);
+}
+.card-title {
+  font-size: 1.3rem;
+  color: var(--clr-very-dark-blue);
+}
+
+.card-description {
+  font-size: 0.8rem;
+  color: var(--clr-grayish-blue);
+  line-height: 1.7;
+}
+
+.card-img {
+  align-self: flex-end;
+  justify-self: flex-end;
+  transform: scale(0.9) translateY(10px);
+}
+
+footer {
+  padding: 50px 0 0 0;
 }
