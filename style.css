@@ -131,6 +131,7 @@ footer {
     margin: 60px auto;
     max-width: 500px;
   }
+
   .cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -161,6 +162,14 @@ footer {
 
   main {
     max-width: 95%;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
   }
 
   .card {
